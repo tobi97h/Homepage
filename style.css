@@ -110,13 +110,13 @@ a {
     font-size: 14px;
 }
 .social-p {
-    line-height: 28px;
+    line-height: 50px;
     font-weight: 500;
     color: #B2B6BD;
     margin-bottom: 10px;
 }
 .social-wrapper {
-    height: 35px;
+    height: 40px;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -146,17 +146,17 @@ a {
 }
 
 #gitea_link.hover {
-    max-width: 180px;
+    max-width: 250px;
     opacity: 1;
     overflow: visible;
 }
 #linkedin_link.hover {
-    max-width: 190px;
+    max-width: 250px;
     opacity: 1;
     overflow: visible;
 }
 #wiki_link.hover {
-    max-width: 180px;
+    max-width: 250px;
     opacity: 1;
     overflow: visible;
 }
