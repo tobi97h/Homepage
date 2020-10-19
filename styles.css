@@ -174,7 +174,7 @@ a {
         height: 100%;
         width: 100%;
         flex-direction: column;
-        padding: 35px 35px; //yx
+        padding: 35px 35px;
     }
     .left {
         justify-content: flex-start;
