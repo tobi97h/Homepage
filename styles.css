@@ -147,7 +147,7 @@ a {
     transition: all 250ms ease-in-out;
 }
 
-#gittea_link.hover {
+#gitea_link.hover {
     max-width: 180px;
     opacity: 1;
     overflow: visible;
