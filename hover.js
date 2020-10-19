@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-    $("#gittea").hover(function(){
-        $("#gittea_link").addClass("hover");
+    $("#gitea").hover(function(){
+        $("#gitea_link").addClass("hover");
     }, function () {
-        $("#gittea_link").removeClass("hover");
+        $("#gitea_link").removeClass("hover");
     });
 
     $("#linkedin").hover(function(){
