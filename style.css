@@ -1,7 +1,7 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-color: #343436;
+    background-color: #2b303b;
 }
 * {
     box-sizing: border-box;
@@ -15,7 +15,7 @@ a {
 
 .section {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +61,10 @@ a {
     height: 2px;
     margin-right: 22px;
 }
+.line-center {
+    margin-right: auto;
+    margin-left: auto;
+}
 .sub-heading {
     color: #846D8F;
     font-family: 'Open Sans', sans-serif;
@@ -69,6 +73,11 @@ a {
     font-size: 20px;
     line-height: 0.75;
     margin: 0;
+}
+.text-center {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px!important;
 }
 .heading {
     font-size: 29px;
@@ -230,4 +239,133 @@ a {
     .col-right {
         width: 100%;
     }
+}
+
+
+/*----------------------------------------------------------------Tech Stack------------------------------------------------------------------------*/
+
+.tech {
+    background-color: #1c212b;
+}
+.tech-container {
+    display: block;
+    width: 900px;
+    padding: 65px 15px;
+}
+.tech-heading {
+    width: 100%;
+    font-size: 29px;
+    line-height: 1.3;
+    letter-spacing: .5px;
+    color: #BF6165;
+}
+.m-t {
+    margin-top: 80px;
+}
+.tech-grid {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-column-gap: 60px;
+    grid-row-gap: 25px;
+    margin-top: 35px;
+}
+.tech-wrapper {
+    width: 100%;
+    height: auto;
+}
+.skill-heading {
+    font-size: 29px;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: .5px;
+    color: #739A99;
+    transition: 200ms;
+}
+.link-heading:hover {
+    color: #BF6165;
+}
+.tech-p {
+    line-height: 28px;
+    font-weight: 500;
+    color: #B2B6BD;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.two {
+    min-height: 56px;
+}
+.three {
+    min-height: 84px;
+}
+.skill-line {
+    width: 100%;
+    height: 6px;
+    background-color: #444;
+}
+.percentage {
+    height: 100%;
+    background-color: #846D8F;
+}
+
+@media (max-width: 768px) {
+    .tech-container {
+        padding: 65px 35px;
+    }
+}
+@media (max-width: 700px) {
+    .tech-container {
+        padding: 65px 35px;
+    }
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+#java {
+    width: 95%;
+}
+#python {
+    width: 65%;
+}
+#c-sharp {
+    width: 85%;
+}
+#rust {
+    width: 50%;
+}
+#c {
+    width: 45%;
+}
+#sql {
+    width: 95%;
+}
+
+#react {
+    width: 70%;
+}
+#nodejs {
+    width: 85%;
+}
+#yew {
+    width: 45%;
+}
+#javafx {
+    width: 90%;
+}
+#wpf {
+    width: 75%;
+}
+
+#docker {
+    width: 95%;
+}
+#kubernetes {
+    width: 80%;
+}
+#linux {
+    width: 80%;
 }
