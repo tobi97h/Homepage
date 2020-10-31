@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <g id="stats-git" transform="translate(-560 -214)">
+    <path id="Differenzmenge_1" data-name="Differenzmenge 1" d="M471,512H41A40.966,40.966,0,0,1,0,471V41A40.966,40.966,0,0,1,41,0H471a40.966,40.966,0,0,1,41,41V471a40.966,40.966,0,0,1-41,41ZM45,30A15.017,15.017,0,0,0,30,45V467a15.017,15.017,0,0,0,15,15H467a15.017,15.017,0,0,0,15-15V45a15.017,15.017,0,0,0-15-15Z" transform="translate(560 214)" fill="#739a99"/>
+    <path id="Differenzmenge_2" data-name="Differenzmenge 2" d="M72,144A72.019,72.019,0,0,1,43.974,5.658a72.019,72.019,0,0,1,56.051,132.684A71.55,71.55,0,0,1,72,144ZM72,26a46,46,0,1,0,46,46A46.052,46.052,0,0,0,72,26Z" transform="translate(650 492)" fill="#739a99"/>
+    <path id="Differenzmenge_3" data-name="Differenzmenge 3" d="M72,144A72.019,72.019,0,0,1,43.974,5.658a72.019,72.019,0,0,1,56.051,132.684A71.55,71.55,0,0,1,72,144ZM72,26a46,46,0,1,0,46,46A46.052,46.052,0,0,0,72,26Z" transform="translate(856 492)" fill="#739a99"/>
+    <path id="Differenzmenge_4" data-name="Differenzmenge 4" d="M72,144A72.019,72.019,0,0,1,43.974,5.658a72.019,72.019,0,0,1,56.051,132.684A71.55,71.55,0,0,1,72,144ZM72,26a46,46,0,1,0,46,46A46.052,46.052,0,0,0,72,26Z" transform="translate(856 287)" fill="#739a99"/>
+    <rect id="Rechteck_28" data-name="Rechteck 28" width="31" height="74" transform="translate(913 425)" fill="#739a99"/>
+    <rect id="Rechteck_29" data-name="Rechteck 29" width="31" height="173" transform="matrix(0.719, 0.695, -0.695, 0.719, 873.255, 387.385)" fill="#739a99"/>
+    <rect id="Rechteck_30" data-name="Rechteck 30" width="31" height="67" transform="translate(913 232)" fill="#739a99"/>
+  </g>
+</svg>
