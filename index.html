@@ -189,29 +189,29 @@
     <div class="container stats">
 
         <div class="stats-block">
-            <h2 class="stats-number">38</h2>
+            <h2 id="ghost_entries" class="stats-number"></h2>
             <h2 class="stats-heading">Blogeinträge</h2>
             <div class="stats-line"></div>
             <p class="tech-p">Besagter Blog über besagte Themen.</p>
-            <img src="./right-arrow.svg" alt="Arrow" class="right-arrow">
+            <a href="https://blog.tobias-huebner.org" ><img src="./right-arrow.svg" alt="Arrow" class="right-arrow"></a>
             <img src="./stats_blog.svg" alt="Blog" class="stats-icon">
         </div>
 
         <div class="stats-block">
-            <h2 class="stats-number">672</h2>
-            <h2 class="stats-heading">Git commits</h2>
+            <h2 id="gitea_repos" class="stats-number"></h2>
+            <h2 class="stats-heading">Git Repos</h2>
             <div class="stats-line"></div>
             <p class="tech-p">Praktisch wie GitHub nur self-hosted.</p>
-            <img src="./right-arrow.svg" alt="Arrow" class="right-arrow">
+            <a href="https://gitea.tobias-huebner.org/explore/repos" ><img src="./right-arrow.svg" alt="Arrow" class="right-arrow"></a>
             <img src="./stats_git.svg" alt="Blog" class="stats-icon">
         </div>
 
         <div class="stats-block">
-            <h2 class="stats-number">63</h2>
+            <h2 id="wiki_entries" class="stats-number"></h2>
             <h2 class="stats-heading">Wiki Einträge</h2>
             <div class="stats-line"></div>
             <p class="tech-p">Meine eigene kleine Knowledgebase.</p>
-            <img src="./right-arrow.svg" alt="Arrow" class="right-arrow">
+            <a href="https://wiki.tobias-huebner.org/index.php/Special:AllPages" ><img src="./right-arrow.svg" alt="Arrow" class="right-arrow"></a>
             <img src="./stats_wiki.svg" alt="Blog" class="stats-icon">
         </div>
 
@@ -221,6 +221,32 @@
 
 
 <script src="hover.js"></script>
+
+<script>
+	
+	let mw_req = new XMLHttpRequest();
+	mw_req.addEventListener("load", function(){
+		document.getElementById("wiki_entries").innerText = this.responseText;
+	});
+	mw_req.open("get", "/api/stats/wiki_entries");
+	mw_req.send();
+
+
+	let gitea_req = new XMLHttpRequest();
+	gitea_req.addEventListener("load", function(){
+		document.getElementById("gitea_repos").innerText = this.responseText;
+	});
+	gitea_req.open("get", "/api/stats/gitea_repos");
+	gitea_req.send();
+
+	let ghost_req = new XMLHttpRequest();
+	ghost_req.addEventListener("load", function(){
+		document.getElementById("ghost_entries").innerText = this.responseText;
+	});
+	ghost_req.open("get", "/api/stats/ghost_entries");
+	ghost_req.send();
+
+</script>
 
 </body>
 </html>
