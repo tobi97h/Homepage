@@ -1,0 +1,47 @@
+<svg id="stats_blog" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <g id="Gruppe_9" data-name="Gruppe 9">
+    <g id="Gruppe_8" data-name="Gruppe 8">
+      <path id="Pfad_10" data-name="Pfad 10" d="M467,0H45A45.051,45.051,0,0,0,0,45V467a45.051,45.051,0,0,0,45,45H467a45.051,45.051,0,0,0,45-45V45A45.051,45.051,0,0,0,467,0Zm15,467a15.017,15.017,0,0,1-15,15H45a15.017,15.017,0,0,1-15-15V150H482Zm0-347H30V45A15.017,15.017,0,0,1,45,30H467a15.017,15.017,0,0,1,15,15Z" fill="#739a99"/>
+    </g>
+  </g>
+  <g id="Gruppe_11" data-name="Gruppe 11">
+    <g id="Gruppe_10" data-name="Gruppe 10">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="15" cy="15" r="15" transform="translate(60 60)" fill="#739a99"/>
+    </g>
+  </g>
+  <g id="Gruppe_13" data-name="Gruppe 13">
+    <g id="Gruppe_12" data-name="Gruppe 12">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="15" cy="15" r="15" transform="translate(120 60)" fill="#739a99"/>
+    </g>
+  </g>
+  <g id="Gruppe_15" data-name="Gruppe 15">
+    <g id="Gruppe_14" data-name="Gruppe 14">
+      <circle id="Ellipse_5" data-name="Ellipse 5" cx="15" cy="15" r="15" transform="translate(180 60)" fill="#739a99"/>
+    </g>
+  </g>
+  <g id="Gruppe_17" data-name="Gruppe 17">
+    <g id="Gruppe_16" data-name="Gruppe 16">
+      <path id="Pfad_11" data-name="Pfad 11" d="M225,180H75a15,15,0,0,0-15,15V317a15,15,0,0,0,15,15H225a15,15,0,0,0,15-15V195A15,15,0,0,0,225,180ZM210,302H90V210H210Z" fill="#739a99"/>
+    </g>
+  </g>
+  <g id="Gruppe_19" data-name="Gruppe 19">
+    <g id="Gruppe_18" data-name="Gruppe 18">
+      <path id="Pfad_12" data-name="Pfad 12" d="M437,302H285a15,15,0,0,0,0,30H437a15,15,0,0,0,0-30Z" fill="#739a99"/>
+    </g>
+  </g>
+  <g id="Gruppe_21" data-name="Gruppe 21">
+    <g id="Gruppe_20" data-name="Gruppe 20">
+      <path id="Pfad_13" data-name="Pfad 13" d="M437,241H285a15,15,0,0,0,0,30H437a15,15,0,0,0,0-30Z" fill="#739a99"/>
+    </g>
+  </g>
+  <g id="Gruppe_23" data-name="Gruppe 23">
+    <g id="Gruppe_22" data-name="Gruppe 22">
+      <path id="Pfad_14" data-name="Pfad 14" d="M437,362H75a15,15,0,0,0,0,30H437a15,15,0,0,0,0-30Z" fill="#739a99"/>
+    </g>
+  </g>
+  <g id="Gruppe_25" data-name="Gruppe 25">
+    <g id="Gruppe_24" data-name="Gruppe 24">
+      <path id="Pfad_15" data-name="Pfad 15" d="M437,422H75a15,15,0,0,0,0,30H437a15,15,0,0,0,0-30Z" fill="#739a99"/>
+    </g>
+  </g>
+</svg>
