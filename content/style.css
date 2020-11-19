@@ -413,15 +413,6 @@ a {
     width: 80%;
 }
 
-/*
-#rust {
-    width: 50%;
-}
-#c {
-    width: 45%;
-}
-*/
-
 #sql {
     width: 90%;
 }
@@ -433,12 +424,6 @@ a {
 #nodejs {
     width: 85%;
 }
-
-/*
-#yew {
-    width: 45%;
-}
-*/
 
 #javafx {
     width: 80%;
@@ -454,6 +439,10 @@ a {
 
 #kubernetes {
     width: 70%;
+}
+
+#cehp {
+	width: 60%;
 }
 
 #linux {

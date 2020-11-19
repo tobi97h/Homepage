@@ -2,15 +2,15 @@
 	
 	"p1" : {
 		"de" : "Seit über 3 Jahren arbeite ich bei der Firma ic! berlin und helfe dort die digitalen Abläufe der Produktion zu optimieren und zu erweitern.",
-		"en" : "For more than 3 years I work at ic! berlin. My work focuses on optimizing and extending the digital processes of manufacturing in a meaningful way."
+		"en" : "For more than 3 years I work at ic! berlin. My work focuses on optimizing and extending digital processes in manufacturing."
 	},
 	"p2" : {
 		"de" : "Auch wenn der Weg des Quereinsteigers anfangs ziemlich schwierig war, hat mir self-taught zu sein meine größte Stärke gebracht.<br>Egal wie komplex und schwierig etwas auch scheinen mag, ich weiß durch Erfahrung das sich jedes noch so große Hindernis überwinden lässt, wenn man einfach weiter dran bleibt.",
-		"en" : "Even though not taking the traditional way into IT had it's hardships, it was definetly worth it.<br>The thing with being completely and successfully self taught is that you are left with an unwavering confidence, a sense you can overcome any obstacle no matter how big, simply by continously trying."
+		"en" : "Even though not taking the traditional way into IT had it's hardships, it was definetly worth it.<br>Being completely and successfully self taught increases confidence immensely. Accuiring knowledge of that caliber on your own, leaves you with a sense of being able to overcome any obstacle no matter how big, simply by continously trying."
 	},
 	"p3" :{
 		"de" : "In meiner Freizeit tüftle ich in meinem Homelab, schreibe bei Hobbyprojekten mit und reflektiere über die Ereignisse meines IT Lebens in meinem Blog.",
-		"en" :"I spend my free time working on own little home lab, writing articles for my blog or helping out with hobby projects."
+		"en" :"I spend my free time working in own home lab, writing articles for my blog or helping out with hobby projects."
 	},
 	"last_update": {
 		"de" : "Stand: 20 Okt. 2020",
@@ -54,7 +54,7 @@
 	},
 	"nodejs" : {
 		"de" : "Für Webserver/APIs, als Middleware zwischen Webendnutzer und aufwendigen Mircoservices.",
-		"en" : "For webservers with custom logic or HTTP APIs, in short as middleware between the end user and complex microservices."
+		"en" : "For HTTP APIs, in short as middleware between the end users browser and complex microservices."
 	},
 	"react" : {
 		"de" : "Standard für Webseiten, mit kleinem bis mittlerem Funktionsumfang.",
@@ -66,7 +66,11 @@
 	},
 	"kubernetes" : {
 		"de" : "Verbindet mehrere Server zu einem Cluster, der speziell für Containertechnologie ausgelegt ist.",
-		"en" : "Combine multiple servers to a cluster centered around container technology."
+		"en" : "Combine multiple servers to a single super computer centered around container technology."
+	},
+	"ceph" : {
+		"de" : "Das verteilte Datensystem der Zukunft.",
+		"en" : "The distributed storage solution of the future."
 	},
 	"linux" : {
 		"de" : "Das beste Betriebssytem der Welt.",
@@ -81,15 +85,15 @@
 		"en" : "Writing"
 	},
 	"writing_text" : {
-		"de" : "Wenn nur man selber mit seinen Systemen und Programmen arbeiten kann, sind diese Systeme wertlos. Sie müssen für Andere nachvollziehbar sein.",
-		"en" : "If you are the only person that understands your code, it might aswell be worthless. It is crucial for any truly successful programmer to be able to communicate their ideas clearly."
+		"de" : "Wenn man nur selbst mit seinen Systemen und Programmen arbeiten kann, sind diese wertlos. Sie müssen für Andere nachvollziehbar sein.",
+		"en" : "If you are the only person that understands your code, it is worthless. Any truly successful programmer needs to be able to communicate their ideas clearly."
 	},
 	"teaching_id" : {
 		"de" : "Didaktik",
 		"en" : "Teaching"
 	},
 	"teaching_text" : {
-		"de" : "Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können vervielfältigt den eigenen Wert",
+		"de" : "Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können ist einer der leichtesten Wege den eigenen Wert zu erhöhen.",
 		"en" : "Knowledge can be copied infinetly without any diminishing returns. Being good at transferring knowledge is one of the easiest ways to increase ones value."
 	},
 	"blog_id" : {
