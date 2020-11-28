@@ -9,17 +9,47 @@
 </head>
 <body>
 
-<div class="section">
+
+<div class="navbar">
+    <div class="nav-container">
+        <div class="nav-left">
+            <a href="">
+                <img class="logo" src="./th.png" alt="Tobias Huebner">
+            </a>
+        </div>
+        <div class="nav-right">
+            <div class="nav-link about-btn">Über mich</div>
+            <div class="nav-link tech-btn">Tech Stack</div>
+            <div class="nav-link stats-btn">Stats</div>
+            <div href="/"class="nav-link">linkedIn</div>
+            <div class="language-wrapper">
+                <img src="./germany.svg" alt="Germany" id="germany" class="language">
+                <img src="./united-states.svg" alt="United States" id="united-states" class="language active">
+            </div>
+            <img class="burger" src="./menu.svg" alt="menu">
+        </div>
+    </div>
+</div>
+
+
+<div class="mobile-navbar">
+    <div class="mobile-navbar-overlay">
+            <div class="mobile-nav-link about-btn">Über mich</div>
+            <div class="mobile-nav-link tech-btn">Tech Stack</div>
+            <div class="mobile-nav-link stats-btn">Stats</div>
+            <div href="/"class="mobile-nav-link">linkedIn</div>
+    </div>
+</div>
+
+
+<div id="about" class="section first">
     <div class="container">
         <div class="left">
             <div class="img"></div>
         </div>
         <div class="right">
             <div class="wrapper">
-                <div class="sub-heading-container">
-                    <div class="line"></div>
-                    <h2 class="sub-heading">Tobias Hübner</h2>
-                </div>
+
                 <h1 class="heading">Backend Dev & Devops Engineer</h1>
                 <p class="paragraph">Seit über 3 Jahren arbeite ich bei der Firma ic! berlin und helfe dort die digitalen Abläufe der Produktion zu optimieren und zu erweitern.</p>
 
@@ -30,7 +60,7 @@
     </div>
 </div>
 
-<div class="section tech">
+<div id="tech" class="section tech">
     <div class="container tech-container">
 
 
@@ -185,7 +215,7 @@
 
 
 
-<div class="section stats">
+<div id="stats" class="section stats">
     <div class="container stats">
 
         <a class="stats-a"  href="https://blog.tobias-huebner.org" >
@@ -278,7 +308,20 @@
     ghost_w_req.open("get", "/api/stats/ghost_words");
     ghost_w_req.send();
 
+    $(".language-wrapper").click(function(){
+        $("#germany").toggleClass("active");
+    });
+    $(".language-wrapper").click(function(){
+        $("#united-states").toggleClass("active");
+    })
+
+    $(".burger").click(function(){
+        $(".mobile-navbar-overlay").toggleClass("open");
+    });
+
 </script>
+
+<script src="./smooth-scroll.js"></script>
 
 </body>
 </html>
