@@ -1,1 +1,5 @@
 .idea
+.exe
+lang
+package-lock.json
+node_modules

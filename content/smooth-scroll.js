@@ -3,19 +3,19 @@ let tech = document.getElementById("tech");
 let stats = document.getElementById("stats");
 
 $(".about-btn").click(function(){
-    let distance = -(about.offsetTop + tech.offsetTop + stats.offsetTop);
-    scrollBy({top: distance, behavior: "smooth"});
+    let distance = 0;
+    window.scrollTo({top: distance, behavior: "smooth"});
     $(".mobile-navbar-overlay").removeClass("open");
 });
 
 $(".tech-btn").click(function(){
-    let distance = about.offsetTop + tech.offsetTop;
-    scrollBy({top: distance, behavior: "smooth"});
+    let distance = tech.offsetTop - 70;
+    window.scrollTo({top: distance, behavior: "smooth"});
     $(".mobile-navbar-overlay").removeClass("open");
 });
 
 $(".stats-btn").click(function(){
-    let distance = about.offsetTop + tech.offsetTop + stats.offsetTop;
-    scrollBy({top: distance, behavior: "smooth"});
+    let distance = stats.offsetTop - 70;
+    window.scrollTo({top: distance, behavior: "smooth"});
     $(".mobile-navbar-overlay").removeClass("open");
 });

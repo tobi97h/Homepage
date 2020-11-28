@@ -1,0 +1,139 @@
+{
+	"aboutmobile" : {
+		"de" : "Über mich",
+		"en" : "About me"
+	},
+	"about" : {
+		"de" : "Über mich",
+		"en" : "About me"
+	},
+	"lang" : {
+		"de" : "<a href=\"/lang/en/\"> <img src=\"/united-states.svg\" alt=\"USA\" class=\"language\"></a>",
+		"en" : "<a href=\"/lang/de/\"> <img src=\"/germany.svg\" alt=\"Germany\" class=\"language\"></a>"
+ 	},
+	"p1" : {
+		"de" : "Seit über 3 Jahren arbeite ich bei der Firma ic! berlin und helfe dort die digitalen Abläufe der Produktion zu optimieren und zu erweitern.",
+		"en" : "For more than 3 years I now work at ic! berlin. My work focuses on optimizing and extending digital processes of manufacturing."
+	},
+	"p2" : {
+		"de" : "Auch wenn der Weg des Quereinsteigers anfangs ziemlich schwierig war, hat mir self-taught zu sein meine größte Stärke gebracht.<br>Egal wie komplex und schwierig etwas auch scheinen mag, ich weiß durch Erfahrung das sich jedes noch so große Hindernis überwinden lässt, wenn man einfach weiter dran bleibt.",
+		"en" : "Even though not taking the traditional way into IT had it's hardships, it was definetly worth it.<br>Being completely and successfully self left me with a sense of being able to overcome any obstacle no matter how big, simply by continouing to try."
+	},
+	"p3" :{
+		"de" : "In meiner Freizeit tüftle ich in meinem Homelab, schreibe bei Hobbyprojekten mit und reflektiere über die Ereignisse meines IT Lebens in meinem Blog.",
+		"en" :"I spend my free time working in own home lab, writing articles for my blog or helping out with hobby projects."
+	},
+	"last_update": {
+		"de" : "Stand: 20 Okt. 2020",
+		"en" : "Last updated: 20 Oct. 2020"
+	},
+	"languages" :{
+		"de" : "Programmiersprachen:",
+		"en" : "Programming languages:"
+	},
+	"tech_stack" : {
+		"de" : "Mein Tech Stack",
+		"en" : "My tech stack"
+	},
+	"java" : {
+		"de" : "Standard Sprache, wird benutzt wenn es keine besonderen Anforderungen gibt.",
+		"en" : "My go to Language, it's massive community made it into the most reliable tool for high level programming obstacles."
+	},
+	"cs" : {
+		"de" : "Windows Version von Java, wird benutzt wenn man auf .Net exclusive Libraries angewiesen ist.",
+		"en" : "Windows version of Java, I mainly use it when I am dependent on .Net exclusive libaries."
+	},
+	"sql_id" : {
+		"de" : "SQL (jede Art)",
+		"en" : "SQL (every flavour)"
+	},
+	"sql_text" : {
+		"de" : "Die Datenbanksprache schlechthin.",
+		"en" : "The omega of database query languages."
+	},
+	"python" : {
+		"de" : "Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities.",
+		"en" : "Swiss army knife, mostly for small scripts and command line utilities."
+	},
+	"javafx" : {
+		"de" : "Industriestandard für moderene Java Desktop Anwendungen.",
+		"en" : "De facto standard for modern Java desktop applications."
+	},
+	"wpf" : {
+		"de" : "Windows Version von JavaFX, wird benutzt wenn man auf .Net exklusive Libraries angewiesen ist.",
+		"en" : "Windows version of JavaFX, I mainly use it when I am dependent on .Net exclusive libaries."
+	},
+	"nodejs" : {
+		"de" : "Für Webserver/APIs, als Middleware zwischen Webendnutzer und aufwendigen Mircoservices.",
+		"en" : "For HTTP APIs, in short as middleware between the end users browser and complex microservices."
+	},
+	"react" : {
+		"de" : "Standard für Webseiten, mit kleinem bis mittlerem Funktionsumfang.",
+		"en" : "For websites with extended functionality."
+	},
+	"docker" : {
+		"de" : "Containertechnologie bietet alle Vorteile von Virtualisierung, mit mehr direkter Kontrolle und ohne Performanceverluste.",
+		"en" : "Container technology gives you all the advantages of virtualisation, and much more direct control, without loosing performance."
+	},
+	"kubernetes" : {
+		"de" : "Verbindet mehrere Server zu einem Cluster, der speziell für Containertechnologie ausgelegt ist.",
+		"en" : "Combine multiple servers to a single super computer centered around container technology."
+	},
+	"ceph" : {
+		"de" : "Das verteilte Datensystem der Zukunft.",
+		"en" : "The distributed storage solution of the future."
+	},
+	"linux" : {
+		"de" : "Das beste Betriebssytem der Welt.",
+		"en" : "The best OS on the planet."
+	},
+	"windows" : {
+		"de" : "Leider weit verbreitet.",
+		"en" : "..."
+	},
+	"writing_id" : {
+		"de" : "Schreiben/Formulieren",
+		"en" : "Writing"
+	},
+	"writing_text" : {
+		"de" : "Wenn man nur selbst mit seinen Systemen und Programmen arbeiten kann, sind diese wertlos. Sie müssen für Andere nachvollziehbar sein.",
+		"en" : "If you are the only person that understands your code, it is worthless. Others need to be able to build upon your work."
+	},
+	"teaching_id" : {
+		"de" : "Didaktik",
+		"en" : "Teaching"
+	},
+	"teaching_text" : {
+		"de" : "Wissen kann unbegrenzt kopiert werden. Sein Wissen Anderen vermitteln zu können ist einer der leichtesten Wege den eigenen Wert zu erhöhen.",
+		"en" : "Knowledge can be copied infinetly without any diminishing returns. Being good at transferring knowledge is one of the easiest ways to increase ones value."
+	},
+	"blog_id" : {
+		"de" : "Blogeinträge",
+		"en" : "Blog entries"
+	},
+	"blog_words" : {
+		"de" : "Geschriebene Wörter",
+		"en" : "Written words"
+	},
+	"blog_text" : {
+		"de" : "Besagter Blog über besagte Themen.",
+		"en" : "My tech blog."
+	},
+	"wiki_words" : {
+		"de" : "Geschriebene Wörter",
+		"en" : "Written words"
+	},
+	"wiki_id" : {
+		"de" : "Wiki Einträge",
+		"en" : "Wiki entries"
+	},
+	"wiki_text" : {
+		"de" : "Meine eigene kleine Knowledgebase",
+		"en" : "My own little knowledgebase"
+	},
+	"gitea_text" : {
+		"de" : "Praktisch wie GitHub nur self-hosted.",
+		"en" : "Like Github but self-hosted."
+	}
+
+}

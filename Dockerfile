@@ -1,5 +1,9 @@
 FROM nginx
 
+COPY nginx.conf /etc/nginx
+
 WORKDIR /usr/share/nginx/html
 
-COPY . .
+RUN rm -rf /usr/share/nginx/html
+
+ADD content .
