@@ -1,5 +1,5 @@
 {
-	"type":"module",
+  "type": "module",
   "dependencies": {
     "node-html-parser": "^2.0.0"
   }
