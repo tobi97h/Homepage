@@ -1,9 +1,21 @@
+# syntax=docker/dockerfile:1
+FROM node AS builder
+
+WORKDIR /app
+
+COPY . ./
+
+RUN npm install
+
+RUN node gen.js
+
+
 FROM nginx
-
-COPY nginx.conf /etc/nginx
-
-WORKDIR /usr/share/nginx/html
 
 RUN rm -rf /usr/share/nginx/html
 
-ADD content .
+WORKDIR /usr/share/nginx/html
+
+COPY --from=builder /app/content ./
+
+COPY nginx.conf /etc/nginx

@@ -231,7 +231,7 @@ a {
     width: 9.375rem;
     height: 9.375rem;
     border-radius: 31.25rem;
-    background-image: url("/Profilbild.png");
+    background-image: url("/Profilbild.jpg");
     background-position: 50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -579,6 +579,13 @@ a {
     }
 }
 
+#dotnet{
+    width: 90%;
+}
+
+#go{
+    width: 60%;
+}
 
 #java {
     width: 95%;
@@ -596,9 +603,6 @@ a {
     width: 90%;
 }
 
-#react {
-    width: 60%;
-}
 
 #nodejs {
     width: 85%;
@@ -620,17 +624,10 @@ a {
     width: 70%;
 }
 
-#cehp {
-    width: 60%;
+#spring {
+
 }
 
-#linux {
-    width: 75%;
-}
-
-#windows {
-    width: 70%;
-}
 #english {
     width: 99%;
 }

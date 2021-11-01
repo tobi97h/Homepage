@@ -12,20 +12,20 @@
 		"en" : "<a href=\"/lang/de/\"> <img src=\"/germany.svg\" alt=\"Germany\" class=\"language\"></a>"
  	},
 	"p1" : {
-		"de" : "Seit über 3 Jahren arbeite ich bei der Firma ic! berlin und helfe dort die digitalen Abläufe der Produktion zu optimieren und zu erweitern.",
-		"en" : "For more than 3 years I now work at ic! berlin. My work focuses on optimizing and extending digital processes of manufacturing."
+		"de" : "Seit knapp 4 Jahren arbeite ich in der IT Branche, hauptsächlich im Bereich Backend Code und DevOps.",
+		"en" : "For almost 4 years I have been working in the IT industry, mainly as a backend engineer doing some devops here and there."
 	},
 	"p2" : {
-		"de" : "Auch wenn der Weg des Quereinsteigers anfangs ziemlich schwierig war, hat mir self-taught zu sein meine größte Stärke gebracht.<br>Egal wie komplex und schwierig etwas auch scheinen mag, ich weiß durch Erfahrung das sich jedes noch so große Hindernis überwinden lässt, wenn man einfach weiter dran bleibt.",
-		"en" : "Even though not taking the traditional way into IT had it's hardships, it was definetly worth it.<br>Being completely and successfully self left me with a sense of being able to overcome any obstacle no matter how big, simply by continouing to try."
+		"de" : "Um self taught dahin zu kommen, wo ich jetzt bin, musste ich zahllose Wochen nichts anderes tun außer Arbeiten, Lernen und Schlafen. Auch wenn dieser Weg schwer war, konnte ich über ihn mir eine außergewöhnliche Qualität aneignen.<br> Egal wie komplex eine Technologie auch sein mag, ich weiß immer das ich sie meistern kann, wenn es sein muss auch ganz auf mich alleine gestellt.",
+		"en" : "Even though getting to where I am at entirely self taught, required countless weeks of just working, learning and sleeping, it also has become my biggest asset. I have a deep found confidence in my ability to learn difficult things fully, all by myself if need be."
 	},
 	"p3" :{
-		"de" : "In meiner Freizeit tüftle ich in meinem Homelab, schreibe bei Hobbyprojekten mit und reflektiere über die Ereignisse meines IT Lebens in meinem Blog.",
-		"en" :"I spend my free time working in own home lab, writing articles for my blog or helping out with hobby projects."
+		"de" : "Ich bin ein aufgeschlossener Typ der sich für nichts zu Schade ist und ein aufrichtiges Interesse an den meisten seiner Mitmenschen hat.",
+		"en" : "I am an open minded guy that is no stranger to having a good time. I love connecting with most people through being genuinely interested in them."
 	},
 	"last_update": {
-		"de" : "Stand: 20 Okt. 2020",
-		"en" : "Last updated: 20 Oct. 2020"
+		"de" : "Stand: 29 Okt. 2021",
+		"en" : "Last updated: 20 Oct. 2021"
 	},
 	"languages" :{
 		"de" : "Programmiersprachen:",
@@ -35,41 +35,49 @@
 		"de" : "Mein Tech Stack",
 		"en" : "My tech stack"
 	},
+	"go" : {
+		"de" : "Hauptsächlich benutzt für komplexere Rest Dienste, die auch großer Last ausgesetzt sein können.",
+		"en" : "Mainly used for more complex REST services, that also manage lots of traffic."
+	},
+	"spring" : {
+		"de" : "Benutzt als interne Microservice API um die Library Vielfalt von Java ausnutzen zu können.",
+		"en" : "Used for internal services that make use of the huge java eco system and all the available libraries."
+	},
+	"dotnet" : {
+		"de" : "Benutzt für ein komplexes Backend einer fintech App in Kombination mit AWS Lambda.",
+		"en" : "Used for a complex Backend of a fintech Software, thats based on AWS Lambda."
+ 	},
 	"java" : {
-		"de" : "Standard Sprache, wird benutzt wenn es keine besonderen Anforderungen gibt.",
-		"en" : "My go to Language, it's massive community made it into the most reliable tool for high level programming obstacles."
+		"de" : "Große Projekte im sog. MRP (Material Requirements Planning), like SAP.",
+		"en" : "Big projects for MRP Systems (Material Requirements Planning), like SAP."
 	},
 	"cs" : {
-		"de" : "Windows Version von Java, wird benutzt wenn man auf .Net exclusive Libraries angewiesen ist.",
-		"en" : "Windows version of Java, I mainly use it when I am dependent on .Net exclusive libaries."
+		"de" : "Businesslogiken und Utilities in Produktionsbetrieben.",
+		"en" : "Businesslogic and utilites to aid the manufacturing process."
 	},
 	"sql_id" : {
 		"de" : "SQL (jede Art)",
 		"en" : "SQL (every flavour)"
 	},
 	"sql_text" : {
-		"de" : "Die Datenbanksprache schlechthin.",
-		"en" : "The omega of database query languages."
+		"de" : "Auswertungen von Betriebsdaten, große Berichte, die mehrschichtige SQL Abfragen als Basis verwenden.",
+		"en" : "Reporting and analysis based on raw business data. Did several projects that use complex SQL queries as their basis."
 	},
 	"python" : {
-		"de" : "Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities.",
-		"en" : "Swiss army knife, mostly for small scripts and command line utilities."
+		"de" : "Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die meinen eigenen Entwicklungsprozess unterstützen.",
+		"en" : "Swiss army knife, mostly for small scripts and command line utilities, to aid my own development process."
 	},
 	"javafx" : {
-		"de" : "Industriestandard für moderene Java Desktop Anwendungen.",
-		"en" : "De facto standard for modern Java desktop applications."
+		"de" : "Apps für Management in Industriebetrieben, die der Verwaltung und Kontrolle des Materialwertschöpfungsprozesses dienen.",
+		"en" : "Apps for the management of manufacturing companies, that help visualize and control the value creation process."
 	},
 	"wpf" : {
-		"de" : "Windows Version von JavaFX, wird benutzt wenn man auf .Net exklusive Libraries angewiesen ist.",
-		"en" : "Windows version of JavaFX, I mainly use it when I am dependent on .Net exclusive libaries."
+		"de" : "Wie JavaFX nur von Windows. Bisher in Projekten verwendet, die außschließlich in Windows Umgebungen leben und entsprechende Abhängigkeiten haben.",
+		"en" : "Like JavaFX just by Windows. This found applicance when there are hard dependencies on windows only libraries."
 	},
 	"nodejs" : {
-		"de" : "Für Webserver/APIs, als Middleware zwischen Webendnutzer und aufwendigen Mircoservices.",
+		"de" : "Für lightweight Webserver/APIs, als Middleware zwischen Webendnutzer und aufwendigen Mircoservices.",
 		"en" : "For HTTP APIs, in short as middleware between the end users browser and complex microservices."
-	},
-	"react" : {
-		"de" : "Standard für Webseiten, mit kleinem bis mittlerem Funktionsumfang.",
-		"en" : "For websites with extended functionality."
 	},
 	"docker" : {
 		"de" : "Containertechnologie bietet alle Vorteile von Virtualisierung, mit mehr direkter Kontrolle und ohne Performanceverluste.",
@@ -78,18 +86,6 @@
 	"kubernetes" : {
 		"de" : "Verbindet mehrere Server zu einem Cluster, der speziell für Containertechnologie ausgelegt ist.",
 		"en" : "Combine multiple servers to a single super computer centered around container technology."
-	},
-	"ceph" : {
-		"de" : "Das verteilte Datensystem der Zukunft.",
-		"en" : "The distributed storage solution of the future."
-	},
-	"linux" : {
-		"de" : "Das beste Betriebssytem der Welt.",
-		"en" : "The best OS on the planet."
-	},
-	"windows" : {
-		"de" : "Leider weit verbreitet.",
-		"en" : "..."
 	},
 	"writing_id" : {
 		"de" : "Schreiben/Formulieren",
