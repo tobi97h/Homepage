@@ -13,11 +13,11 @@
  	},
 	"p1" : {
 		"de" : "Seit knapp 4 Jahren arbeite ich in der IT Branche, hauptsächlich im Bereich Backend Code und DevOps.",
-		"en" : "For almost 4 years I have been working in the IT industry, mainly as a backend engineer doing some devops here and there."
+		"en" : "For almost 4 years I have been working in the IT industry, mainly as a backend engineer doing some devops on the side."
 	},
 	"p2" : {
-		"de" : "Um self taught dahin zu kommen, wo ich jetzt bin, musste ich zahllose Wochen nichts anderes tun außer Arbeiten, Lernen und Schlafen. Auch wenn dieser Weg schwer war, konnte ich über ihn mir eine außergewöhnliche Qualität aneignen.<br> Egal wie komplex eine Technologie auch sein mag, ich weiß immer das ich sie meistern kann, wenn es sein muss auch ganz auf mich alleine gestellt.",
-		"en" : "Even though getting to where I am at entirely self taught, required countless weeks of just working, learning and sleeping, it also has become my biggest asset. I have a deep found confidence in my ability to learn difficult things fully, all by myself if need be."
+		"de" : "Um self taught dahin zu kommen, wo ich jetzt bin, musste ich zahllose Wochen nichts Anderes tun außer Arbeiten, Lernen und Schlafen. Auch wenn dieser Weg schwer war, konnte ich über ihn mir eine außergewöhnliche Qualität aneignen.<br> Egal wie komplex eine Technologie auch sein mag, ich weiß jetzt immer das ich sie meistern kann, wenn es sein muss auch ganz auf mich allein gestellt.",
+		"en" : "Even though getting to where I am at entirely self taught, required countless weeks of doing nothing but working, learning and sleeping, it also has become my biggest asset. I have a deep found confidence in my ability to learn difficult things fully, all by myself if need be."
 	},
 	"p3" :{
 		"de" : "Ich bin ein aufgeschlossener Typ der sich für nichts zu Schade ist und ein aufrichtiges Interesse an den meisten seiner Mitmenschen hat.",
@@ -36,59 +36,59 @@
 		"en" : "My tech stack"
 	},
 	"go" : {
-		"de" : "Hauptsächlich benutzt für komplexere Rest Dienste, die auch großer Last ausgesetzt sein können.",
+		"de" : "Hauptsächlich benutzt für komplexere REST Dienste, die gleichzeitig auch großer Last ausgesetzt sein können.",
 		"en" : "Mainly used for more complex REST services, that also manage lots of traffic."
 	},
 	"spring" : {
-		"de" : "Benutzt als interne Microservice API um die Library Vielfalt von Java ausnutzen zu können.",
-		"en" : "Used for internal services that make use of the huge java eco system and all the available libraries."
+		"de" : "Benutzt als interner Microservice der die Library Vielfalt von Java bereit stellt. Ich schreibe ungerne alles in Java, da es mittlerweile weit aus modernere Sprachen gibt.",
+		"en" : "Used for internal services that make use of the huge amount of available java libraries. I don't like writing everything in java as there are much more modern language around today."
 	},
 	"dotnet" : {
-		"de" : "Benutzt für ein komplexes Backend einer fintech App in Kombination mit AWS Lambda.",
-		"en" : "Used for a complex Backend of a fintech Software, thats based on AWS Lambda."
+		"de" : "Benutzt für ein komplexes Backend einer fintech App, die auf der AWS Lambda Architektur basiert.",
+		"en" : "Used for a complex backend of a fintech App, thats makes use of the AWS Lambda architecture."
  	},
 	"java" : {
-		"de" : "Große Projekte im sog. MRP (Material Requirements Planning), like SAP.",
-		"en" : "Big projects for MRP Systems (Material Requirements Planning), like SAP."
+		"de" : "Angewandt in großen Projekten im Bereich der Materialbedarfsplanung (MRP=Material Requirements Planning), im Verbund mit SAP.",
+		"en" : "Projects regarding material requirement planning (MRP=Material Requirements Planning) in conjuncture with SAP."
 	},
 	"cs" : {
-		"de" : "Businesslogiken und Utilities in Produktionsbetrieben.",
-		"en" : "Businesslogic and utilites to aid the manufacturing process."
+		"de" : "Businesslogiken und Utilities in einem industriellem Produktionsunternehmen.",
+		"en" : "Businesslogic and utilites for a industrial manufacturing company."
 	},
 	"sql_id" : {
 		"de" : "SQL (jede Art)",
 		"en" : "SQL (every flavour)"
 	},
 	"sql_text" : {
-		"de" : "Auswertungen von Betriebsdaten, große Berichte, die mehrschichtige SQL Abfragen als Basis verwenden.",
-		"en" : "Reporting and analysis based on raw business data. Did several projects that use complex SQL queries as their basis."
+		"de" : "Umfangreiche Auswertungen von Betriebsdaten in Form von Reporting, die mehrschichtige SQL Abfragen, als Basis für Datenbeschaffung und Kalkulation, verwenden.",
+		"en" : "Extensive analysis and reporting of raw business data. Did several projects that use complex, multistep SQL queries as their base."
 	},
 	"python" : {
-		"de" : "Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die meinen eigenen Entwicklungsprozess unterstützen.",
-		"en" : "Swiss army knife, mostly for small scripts and command line utilities, to aid my own development process."
+		"de" : "Schweizer Taschenmesser, hauptsächlich für Skripts und Command-Line Utilities, die den Entwicklungsprozess unterstützen.",
+		"en" : "Swiss army knife, mostly for small scripts and command line utilities, to aid my the development process."
 	},
 	"javafx" : {
-		"de" : "Apps für Management in Industriebetrieben, die der Verwaltung und Kontrolle des Materialwertschöpfungsprozesses dienen.",
-		"en" : "Apps for the management of manufacturing companies, that help visualize and control the value creation process."
+		"de" : "Apps für Management in einem Industriebetrieb, die der Verwaltung und Kontrolle des Materialwertschöpfungsprozesses dienen.",
+		"en" : "Apps for the management of a manufacturing company, that help visualize and control the value creation process."
 	},
 	"wpf" : {
-		"de" : "Wie JavaFX nur von Windows. Bisher in Projekten verwendet, die außschließlich in Windows Umgebungen leben und entsprechende Abhängigkeiten haben.",
-		"en" : "Like JavaFX just by Windows. This found applicance when there are hard dependencies on windows only libraries."
+		"de" : "Wie JavaFX nur von Windows. Bisher in Projekten verwendet, die außschließlich in Windows Umgebungen existieren und dementsprechende Abhängigkeiten haben.",
+		"en" : "Like JavaFX just by Windows. This found applicance when there are hard dependencies on windows exclusive libraries."
 	},
 	"nodejs" : {
 		"de" : "Für lightweight Webserver/APIs, als Middleware zwischen Webendnutzer und aufwendigen Mircoservices.",
-		"en" : "For HTTP APIs, in short as middleware between the end users browser and complex microservices."
+		"en" : "For lightweight HTTP APIs, in short as middleware between the end users browser and complex microservices."
 	},
 	"docker" : {
-		"de" : "Containertechnologie bietet alle Vorteile von Virtualisierung, mit mehr direkter Kontrolle und ohne Performanceverluste.",
-		"en" : "Container technology gives you all the advantages of virtualisation, and much more direct control, without loosing performance."
+		"de" : "Um Test-, Build- und Deploymentprozesse zu automatisieren. Environment aware code war noch nie einfacher.",
+		"en" : "To automate test, build and deployment processes. Making code environment aware has never been easier."
 	},
 	"kubernetes" : {
-		"de" : "Verbindet mehrere Server zu einem Cluster, der speziell für Containertechnologie ausgelegt ist.",
-		"en" : "Combine multiple servers to a single super computer centered around container technology."
+		"de" : "Je nach Skalierungsbedarf ist dieser Orchestrierungsdienst sinnvoll. Hiermit können docker basierende Apps ins unendliche skaliert werden.",
+		"en" : "Only makes sense if we plan to scale almost indefinetly. With this orchestration service we can scale docker based applications to any size."
 	},
 	"writing_id" : {
-		"de" : "Schreiben/Formulieren",
+		"de" : "Schreiben",
 		"en" : "Writing"
 	},
 	"writing_text" : {

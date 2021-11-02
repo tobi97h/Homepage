@@ -25,7 +25,6 @@ docker run -p 80:80 coverpage
 # deploy on server
 
 ```
-node gen.js
-docker build -t nexus.tobias-huebner.org/coverpage:1.8 .
-docker push nexus.tobias-huebner.org/coverpage:1.8
+docker build -t nexus.tobias-huebner.org/th-coverpage:1.9 .
+docker push nexus.tobias-huebner.org/th-coverpage:1.9
 ```
