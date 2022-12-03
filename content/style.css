@@ -10,6 +10,12 @@ html, body {
     margin: 0;
     background-color: #2b303b;
 }
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
